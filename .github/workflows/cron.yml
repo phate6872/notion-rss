@@ -3,8 +3,8 @@ name: Get Feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 14 * * *" # 12am AEST
-
+    - cron: "10 * * * *" # 6pm IST
+    
 jobs:
   get-rss-feed:
     runs-on: ubuntu-latest
